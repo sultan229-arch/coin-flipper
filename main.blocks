@@ -1,0 +1,13 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="rgC)//T4E}M*`|M%BxCx">coin</variable></variables><block type="device_gesture_event" id="!]y[e8-wC!O}:*J]s;l+" x="50" y="52"><field name="NAME">Gesture.Shake</field><statement name="HANDLER"><block type="variables_set" id="Cv#rI%6O_[FOU4?Hf6#c"><field name="VAR" id="rgC)//T4E}M*`|M%BxCx">coin</field><value name="VALUE"><shadow type="math_number" id="9_UBR~yz@=zK5`HGKfK?"><field name="NUM">0</field></shadow><block type="device_random" id="OKUgcDU!yCFud/Q;[Kuf"><value name="min"><shadow type="math_number" id="rZIrnQwFW[H0Vf_3S%,I"><field name="NUM">1</field></shadow></value><value name="limit"><shadow type="math_number" id="HpN|BZ_7NI`|]Dy3JUkJ"><field name="NUM">2</field></shadow></value></block></value><next><block type="controls_if" id="+Ml@cg/!Xw3nXuwqpF{7"><mutation else="1"></mutation><value name="IF0"><shadow type="logic_boolean" id="3J2w-+qH+]1}(t4VF/r9"><field name="BOOL">TRUE</field></shadow><block type="logic_compare" id="bViaFG!Q*Z5E$zplVuNX"><field name="OP">EQ</field><value name="A"><shadow type="math_number" id="/[R[IY0BY=4yD[_@fDXi"><field name="NUM">0</field></shadow><block type="variables_get" id="^MhKQ;iR9Nf,jh$G1NEn"><field name="VAR" id="rgC)//T4E}M*`|M%BxCx">coin</field></block></value><value name="B"><shadow type="math_number" id="X51};f~=MzL?3B_TZ.Ez"><field name="NUM">1</field></shadow></value></block></value><statement name="DO0"><block type="device_show_leds" id="bBent.+ZdZdP5LN+0NdJ"><field name="LEDS">`
+        # . . . # 
+        # . . . # 
+        # # # # # 
+        # . . . # 
+        # . . . #
+        `</field></block></statement><statement name="ELSE"><block type="device_show_leds" id="(#8`24Co-vY~4{yoRHhF"><field name="LEDS">`
+        # # # # # 
+        . . # . . 
+        . . # . . 
+        . . # . . 
+        . . # . .
+        `</field></block></statement></block></next></block></statement></block></xml>
